@@ -16,8 +16,72 @@
   }
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
   box-sizing: border-box;
+}
+
+.logo {
+  background-image: url(../public/Logo-Black.png);
+}
+
+.service {
+  background-image: url(../public/services.jpg);
+}
+
+.help {
+  background-image: url(../public/help.jpg);
+}
+
+.service-item:first-child {
+  margin-top: 2rem;
+}
+
+.service-title {
+  transition: all 1s ease;
+}
+
+.service-title:hover > .service-icon-wrap > .service-icon {
+  font-size: 20px;
+}
+
+.service-icon {
+  transition: font-size 1s ease-in;
+}
+
+.modal,
+.service-modal-overlay {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+}
+
+.service-modal-overlay {
+  background: rgba(49, 49, 49, 0.8);
+}
+
+.modal-content {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 1.4;
+  background: #f1f1f1;
+  padding: 14px 28px;
+  border-radius: 3px;
+  max-width: 600px;
+  min-width: 300px;
+}
+
+body.active-service-modal {
+  overflow-y: hidden;
 }
