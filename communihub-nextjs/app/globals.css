@@ -126,8 +126,8 @@ body.active-service-modal {
   height: 100%;
 }
 
-input.input-star {
-  
+input[type=radio] {
+  display: none;
 }
 
 .label-star {
@@ -135,11 +135,15 @@ input.input-star {
   transition: all 0.2s ease;
 }
 
-input.input-star:not(:checked) ~ .label-star:hover,
-input.input-star:not(:checked) ~ .label-star:hover ~ .label-star {
+.label-star:hover,
+.label-star:hover ~ .label-star {
   color: green;
 }
 
 .input-star:checked ~ .label-star {
   color: red;
+}
+
+.star {
+  cursor: pointer;
 }

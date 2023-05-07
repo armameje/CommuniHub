@@ -1,16 +1,24 @@
+"use client";
+
 import React, { useState } from "react";
 import { GrClose } from "react-icons/gr";
 import { serviceModal } from "@/public/interface/iServiceModal";
 import StarRating from "./star-rating";
 
 export default function ServiceModal({ serviceName, toggleModal, personnel = [] }: serviceModal) {
+  const [clickReview, setClickReview] = useState(false);
+
+  function onClickReview() {
+    setClickReview(!clickReview);
+  }
+
   return (
     <div className="modal z-20 relative">
       <div onClick={toggleModal} className="service-modal-overlay"></div>
       <div className="modal-content flex flex-col">
         <div className="flex justify-between">
           <h1 className="text-[#C74300] text-6xl">{serviceName}</h1>
-          <GrClose onClick={toggleModal}/>
+          <GrClose onClick={toggleModal} />
         </div>
         <div className="flex flex-col gap-4 mt-4">
           {personnel.map((person) => {
@@ -30,10 +38,12 @@ export default function ServiceModal({ serviceName, toggleModal, personnel = [] 
                 <div className="flex flex-col items-center justify-center w-[500px]">
                   <div>{person.skill}</div>
                   <div>
-                    <StarRating />
+                    <StarRating onClickReview={onClickReview} setClickReview={setClickReview} clickReview={clickReview} />
                   </div>
                   <div className="w-full flex justify-center mt-2">
-                    <button className="border w-3/5 py-2 bg-zinc-600 border-zinc-600 text-white">-- REVIEW --</button>
+                    <button className="border w-3/5 py-2 bg-zinc-600 border-zinc-600 text-white" onClick={onClickReview}>
+                      -- REVIEW --
+                    </button>
                   </div>
                 </div>
               </div>
