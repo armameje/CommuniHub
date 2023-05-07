@@ -8,13 +8,13 @@
   --background-end-rgb: 255, 255, 255;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
-}
+} */
 
 * {
   box-sizing: border-box;
@@ -27,11 +27,15 @@ body {
 }
 
 .logo {
-  background-image: url(../public/Logo-Black.png);
+  background-image: url(../public/new_logo.png);
 }
 
 .service {
   background-image: url(../public/services.jpg);
+}
+
+.market {
+  background-image: url(../public/market.JPG);
 }
 
 .help {

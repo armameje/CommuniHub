@@ -16,13 +16,13 @@ export default function Features() {
           </Link>
         </div>
         <div className="relative">
-          <div className="w-80 h-64 flex justify-center items-center service bg-cover bg-center blur-[2px]"></div>
+          <div className="w-80 h-64 flex justify-center items-center market bg-cover bg-center blur-[2px]"></div>
           <Link href="/market" className="bg-green-950 text-white py-2 px-4 hover:bg-white hover:text-green-950 transition-all z-10 absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%]">
             Market
           </Link>
         </div>
         <div className="relative">
-          <div className="w-80 h-64 flex justify-center items-center service bg-cover bg-center blur-[2px] help"></div>
+          <div className="w-80 h-64 flex justify-center items-center bg-cover bg-center blur-[2px] help"></div>
           <Link href="/help" className="bg-green-950 text-white py-2 px-4 hover:bg-white hover:text-green-950 transition-all z-10 absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%]">
             Help
           </Link>
