@@ -4,7 +4,7 @@ import MemberBox from "./(components)/member-box";
 export default function Help() {
   return (
     <section>
-      <div className="flex flex-col item-center justify-center gap-8 bg-green-300 pb-16">
+      <div className="flex flex-col item-center justify-center gap-8 bg-[rgb(250,236,225)] pb-16">
         <div className="flex justify-center items-center mt-16 mb-6">
           <h1 className="text-6xl">Contact Us</h1>
         </div>
@@ -41,7 +41,7 @@ export default function Help() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col items-center px-52 py-24">
+      <div className="flex flex-col items-center px-52 py-24 bg-[rgb(221,190,166)]">
         <div className="flex flex-col items-center gap-16 mb-24">
           <h1>Talk to real people</h1>
           <p>

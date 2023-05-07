@@ -75,14 +75,14 @@ body {
 
 .modal-content {
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   line-height: 1.4;
   background: #f1f1f1;
   padding: 14px 28px;
   border-radius: 3px;
-  max-width: 600px;
+  width: 800px;
   min-width: 300px;
 }
 
@@ -110,4 +110,36 @@ body.active-service-modal {
     radial-gradient(circle at 0% 61.16666793823242%, #010143 0%, 43.550000000000004%, rgba(1, 1, 67, 0) 65%),
     radial-gradient(circle at 92.5% 74.50000127156575%, #ff8517 0%, 42%, rgba(255, 133, 23, 0) 70%),
     radial-gradient(circle at 48.9013671875% 49.521484375%, #faece1 0%, 100%, rgba(250, 236, 225, 0) 100%);
+}
+
+.home-header {
+  background-image: radial-gradient(circle at 0% 100%, #97b49d 0%, 24%, rgba(151, 180, 157, 0) 24%),
+    radial-gradient(circle at 3.9697265625% 36.10026041666667%, #27784f 0%, 35%, rgba(39, 120, 79, 0) 35%),
+    radial-gradient(circle at 27.496744791666668% 92.77994791666667%, #004623 0%, 40%, rgba(0, 70, 35, 0) 40%),
+    radial-gradient(circle at 53.3837890625% 100%, rgba(215, 53, 1, 0.99) 0%, 50%, rgba(215, 53, 1, 0) 50%),
+    radial-gradient(circle at 42.286783854166664% 20.615234375%, #ff4401 0%, 70%, rgba(255, 68, 1, 0) 70%),
+    radial-gradient(circle at 93.6865234375% 11.42578125%, #ffb993 0%, 70%, rgba(255, 185, 147, 0) 70%),
+    radial-gradient(circle at 48.9013671875% 49.521484375%, #faece1 0%, 100%, rgba(250, 236, 225, 0) 100%);
+}
+
+.worker-img {
+  height: 100%;
+}
+
+input.input-star {
+  
+}
+
+.label-star {
+  color: orange;
+  transition: all 0.2s ease;
+}
+
+input.input-star:not(:checked) ~ .label-star:hover,
+input.input-star:not(:checked) ~ .label-star:hover ~ .label-star {
+  color: green;
+}
+
+.input-star:checked ~ .label-star {
+  color: red;
 }
