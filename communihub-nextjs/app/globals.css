@@ -37,6 +37,10 @@ body {
 .help {
   background-image: url(../public/help.jpg);
 }
+/* 
+.about-us {
+  background-image: url(../public/About\ Us\ -\ Poster.png);
+} */
 
 .service-item:first-child {
   margin-top: 2rem;
@@ -84,4 +88,26 @@ body {
 
 body.active-service-modal {
   overflow-y: hidden;
+}
+
+.poster-bg {
+  background-image: radial-gradient(circle at 80.5833371480306% 49.166666666666664%, #ffffff 0%, 5.200000000000001%, rgba(255, 255, 255, 0) 13%),
+    radial-gradient(circle at 20% 97.16666539510092%, #ffffff 0%, 14%, rgba(255, 255, 255, 0) 35%),
+    radial-gradient(circle at 88.50000381469727% 9.833354155222574%, #73bff8 0%, 19%, rgba(115, 191, 248, 0) 38%),
+    radial-gradient(circle at 88.16666920979817% 94.50000127156576%, #ffffff 0%, 17.68%, rgba(255, 255, 255, 0) 34%),
+    radial-gradient(circle at 8.000040849049887% 44.50000127156575%, #010143 0%, 43.550000000000004%, rgba(1, 1, 67, 0) 65%),
+    radial-gradient(circle at 92.5% 74.50000127156575%, #ff8517 0%, 42%, rgba(255, 133, 23, 0) 70%),
+    radial-gradient(circle at 48.9013671875% 49.521484375%, #faece1 0%, 100%, rgba(250, 236, 225, 0) 100%);
+}
+
+.about-content-header {
+  background-image: radial-gradient(circle at 52.00000127156576% 100%, #ffffff 0%, 17.5%, rgba(255, 255, 255, 0) 35%),
+    radial-gradient(circle at 0% 27.83333460489909%, #ffffff 0%, 17.5%, rgba(255, 255, 255, 0) 35%), radial-gradient(circle at 38.66666793823242% 0%, #ffffff 0%, 17.5%, rgba(255, 255, 255, 0) 35%),
+    radial-gradient(circle at 80.5833371480306% 49.166666666666664%, #ffffff 0%, 5.200000000000001%, rgba(255, 255, 255, 0) 13%),
+    radial-gradient(circle at 20% 97.16666539510092%, #ffffff 0%, 14%, rgba(255, 255, 255, 0) 35%),
+    radial-gradient(circle at 88.50000381469727% 9.833354155222574%, #73bff8 0%, 19%, rgba(115, 191, 248, 0) 38%),
+    radial-gradient(circle at 88.16666920979817% 94.50000127156576%, #ffffff 0%, 17.68%, rgba(255, 255, 255, 0) 34%),
+    radial-gradient(circle at 0% 61.16666793823242%, #010143 0%, 43.550000000000004%, rgba(1, 1, 67, 0) 65%),
+    radial-gradient(circle at 92.5% 74.50000127156575%, #ff8517 0%, 42%, rgba(255, 133, 23, 0) 70%),
+    radial-gradient(circle at 48.9013671875% 49.521484375%, #faece1 0%, 100%, rgba(250, 236, 225, 0) 100%);
 }
