@@ -8,9 +8,6 @@ export default function Home() {
       <Header />
       <Features />
       <News />
-      <div>
-        Heello World
-      </div>
     </>
   );
 }
