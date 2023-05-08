@@ -5,10 +5,10 @@ import Link from "next/link";
 export default function NavBar() {
   return (
     <nav className="w-full flex justify-between border-2 items-center border-stone-800 px-10 py-6 sticky">
-      <div className="flex items-center relative">
-        <div className="logo w-[350px] h-[360px] bg-cover absolute"></div>
+      <div className="relative w-64 h-16 overflow-visible">
+        <img src="/new_logo.png" alt="communihub" className="absolute top-[-130%]" />
       </div>
-      <div className="flex justify-around gap-8 ml-[250px] ">
+      <div className="flex justify-around gap-8 ">
         <Link href="/">Home</Link>
         <Link href="/services">Services</Link>
         <Link href="/market">Market</Link>

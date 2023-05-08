@@ -6,11 +6,6 @@ import { serviceModal } from "@/public/interface/iServiceModal";
 import StarRating from "./star-rating";
 
 export default function ServiceModal({ serviceName, toggleModal, personnel = [] }: serviceModal) {
-  const [clickReview, setClickReview] = useState(false);
-
-  function onClickReview() {
-    setClickReview(!clickReview);
-  }
 
   return (
     <div className="modal z-20 relative">
@@ -37,13 +32,8 @@ export default function ServiceModal({ serviceName, toggleModal, personnel = [] 
                 </div>
                 <div className="flex flex-col items-center justify-center w-[500px]">
                   <div>{person.skill}</div>
-                  <div>
-                    <StarRating onClickReview={onClickReview} setClickReview={setClickReview} clickReview={clickReview} />
-                  </div>
-                  <div className="w-full flex justify-center mt-2">
-                    <button className="border w-3/5 py-2 bg-zinc-600 border-zinc-600 text-white" onClick={onClickReview}>
-                      -- REVIEW --
-                    </button>
+                  <div className="w-full">
+                    <StarRating />
                   </div>
                 </div>
               </div>
