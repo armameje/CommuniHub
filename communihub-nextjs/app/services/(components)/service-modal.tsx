@@ -18,20 +18,20 @@ export default function ServiceModal({ serviceName, toggleModal, personnel = [] 
         <div className="flex flex-col gap-4 mt-4">
           {personnel.map((person) => {
             return (
-              <div className="flex justify-between gap-16 mb-4 h-[150px]">
-                <div className="flex gap-4">
-                  <div className="w-28">
+              <div className="flex justify-between mb-4 h-[150px]">
+                <div className="flex gap-6 w-3/5">
+                  <div className="w-36 overflow-hidden">
                     <img src="/musky.jpg" alt="" className="worker-img" />
                   </div>
-                  <div className="flex flex-col gap-1 justify-center">
-                    <div>{person.name}</div>
+                  <div className="flex flex-col gap-1 justify-center grow">
+                    <div className="font-bold">{person.name}</div>
                     <div>{person.age} Years Old</div>
                     <div>Status: {person.status}</div>
                     <div>Contact No.: {person.contactNumber}</div>
                   </div>
                 </div>
-                <div className="flex flex-col items-center justify-center w-[500px]">
-                  <div>{person.skill}</div>
+                <div className="flex flex-col items-center justify-center grow">
+                  <div className="font-bold">{person.skill}</div>
                   <div className="w-full">
                     <StarRating />
                   </div>

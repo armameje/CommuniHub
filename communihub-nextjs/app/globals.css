@@ -127,7 +127,7 @@ body.active-service-modal {
 }
 
 .worker-img {
-  height: 100%;
+  max-width: 100%;
 }
 
 input[type=radio] {

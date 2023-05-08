@@ -2,6 +2,7 @@
 
 import { market } from "@/public/interface/iMarket";
 import { marketList } from "@/public/market-list";
+import { FaStar } from "react-icons/fa";
 import MenuItem from "../(components)/menu-item";
 
 type Params = {
@@ -20,11 +21,15 @@ export default function MarketPage({ params: { marketId } }: Params) {
   const marketItem = getMarket(marketId);
 
   return (
-    <section className="px-60 pt-32">
-      <div className="bg-violet-100">
-        <div >
-          <h1>{marketItem.name}</h1>
-          <div>ratings</div>
+    <section className="px-44 py-32 bg-amber-50">
+      <div className="border-[rgba(200, 189, 180, 0.75)] border p-24">
+        <div className="flex flex-col items-start justify-between gap-2">
+          <h1 className="text-3xl font-bold">{marketItem.name}</h1>
+          <div className="flex my-6 gap-1">
+            {[...Array(5)].map(star => {
+              return <FaStar color="#e4e5e9" />
+            })}
+          </div>
           <div>Contact Number: {marketItem.contactNumber}</div>
           <div>Address: {marketItem.address}</div>
           <div>Payments: {marketItem.payments}</div>
@@ -33,7 +38,7 @@ export default function MarketPage({ params: { marketId } }: Params) {
         <div>
           <img src="" alt="" />
         </div>
-        <div>
+        <div className="flex flex-col gap-4 mt-16 items-center">
           <h1>Menu</h1>
           {marketItem.menuItems.map((item) => {
             return <MenuItem name={item.name} price={item.price} />;
