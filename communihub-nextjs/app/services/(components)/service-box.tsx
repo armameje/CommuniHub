@@ -21,7 +21,7 @@ export default function ServiceBox({ serviceName, personnel }: service) {
 
   return (
     <section className="relative service-item">
-      <div className="w-[393px] h-[294px] service border-2 border-black rounded"></div>
+      <div className="w-[393px] h-[294px] service border-2 border-black rounded blur-[2px]"></div>
       <div
         className={`absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] bg-orange-200 ${
           nameLength > 18 ? "w-[290px]" : "w-[241px]"

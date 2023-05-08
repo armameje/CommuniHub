@@ -41,6 +41,50 @@ body {
 .help {
   background-image: url(../public/help.jpg);
 }
+
+.homepage1 {
+  background-image: url(../public/homepage-01.JPG);
+}
+
+.homepage2 {
+  background-image: url(../public/homepage-02.JPG);
+}
+
+.homepage3 {
+  background-image: url(../public/homepage-03.JPG);
+}
+
+.homepage4 {
+  background-image: url(../public/homepage-04.JPG);
+}
+
+.homepage5 {
+  background-image: url(../public/homepage-05.JPG);
+}
+
+.homepage6 {
+  background-image: url(../public/homepage-06.JPG);
+}
+
+.homepage7 {
+  background-image: url(../public/homepage-07.JPG);
+}
+
+.homepage8 {
+  background-image: url(../public/homepage-08.JPG);
+}
+
+.homepage9 {
+  background-image: url(../public/homepage-09.JPG);
+}
+
+.homepage10 {
+  background-image: url(../public/homepage-10.JPG);
+}
+
+.map {
+  background-image: url(../public/intmaps.PNG);
+}
 /* 
 .about-us {
   background-image: url(../public/About\ Us\ -\ Poster.png);
