@@ -1,6 +1,11 @@
 import MarketBox from "./(components)/market-box";
 import { marketList } from "@/public/market-list";
 
+export const metadata = {
+  title: "Communihub Market"
+};
+
+
 export default function Market() {
   return (
     <section className="w-auto h-auto flex flex-col items-center px-[270px] pt-16 pb-16">

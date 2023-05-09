@@ -1,6 +1,10 @@
 import ServiceBox from "./(components)/service-box";
 import { servicesList } from "@/public/services-list";
 
+export const metadata = {
+  title: "Communihub Services",
+};
+
 export default function Services() {
   return (
     <section className="w-auto h-auto flex flex-col items-center px-[270px] pt-16 pb-16">

@@ -1,6 +1,9 @@
-export default function AboutUs() {
-  const user = process.env.NEXT_PUBLIC_ZAMN;
 
+export const metadata = {
+  title: "About Communihub"
+};
+
+export default function AboutUs() {
 
   return (
     <section>

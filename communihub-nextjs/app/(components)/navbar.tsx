@@ -1,19 +1,33 @@
+"use client";
+
+import { useState } from "react";
 import { FaFacebookF, FaPinterestP, FaTwitter } from "react-icons/fa";
 import { BsInstagram } from "react-icons/bs";
 import Link from "next/link";
 
 export default function NavBar() {
+
   return (
-    <nav className="w-full flex justify-between border-2 items-center border-stone-800 px-10 py-6 sticky">
+    <nav className="w-full flex justify-between border-2 items-center border-stone-800 px-10 py-1 sticky top-0 z-30 bg-[rgba(255,99,71,0.2)]">
       <div className="relative w-64 h-16 overflow-visible">
-        <img src="/new_logo.png" alt="communihub" className="absolute top-[-130%]" />
+        <img src="/new_logo.png" alt="communihub" className="absolute top-[-135%]" />
       </div>
       <div className="flex justify-around gap-8 ">
-        <Link href="/">Home</Link>
-        <Link href="/services">Services</Link>
-        <Link href="/market">Market</Link>
-        <Link href="/help">Help</Link>
-        <Link href="/about">About Us</Link>
+        <Link href="/" className="hover:text-[#015243] font-bold">
+          Home
+        </Link>
+        <Link href="/services" className="hover:text-[#015243] font-bold">
+          Services
+        </Link>
+        <Link href="/market" className="hover:text-[#015243] font-bold">
+          Market
+        </Link>
+        <Link href="/help" className="hover:text-[#015243] font-bold">
+          Help
+        </Link>
+        <Link href="/about" className="hover:text-[#015243] font-bold">
+          About Us
+        </Link>
       </div>
       <div className="flex gap-8">
         <div className="flex items-center gap-4">

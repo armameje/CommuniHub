@@ -1,6 +1,10 @@
 import { memberList } from "@/public/member-list";
 import MemberBox from "./(components)/member-box";
 
+export const metadata = {
+  title: "Contact Communihub",
+};
+
 export default function Help() {
   return (
     <section>
