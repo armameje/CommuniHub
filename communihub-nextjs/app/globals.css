@@ -41,10 +41,70 @@ body {
 .help {
   background-image: url(../public/help.jpg);
 }
-/* 
-.about-us {
-  background-image: url(../public/About\ Us\ -\ Poster.png);
-} */
+
+.homepage1 {
+  background-image: url(../public/homepage-01.JPG);
+}
+
+.homepage2 {
+  background-image: url(../public/homepage-02.JPG);
+}
+
+.homepage3 {
+  background-image: url(../public/homepage-03.JPG);
+}
+
+.homepage4 {
+  background-image: url(../public/homepage-04.JPG);
+}
+
+.homepage05 {
+  background-image: url(../public/homepage-05.JPG);
+}
+
+.homepage5 {
+  background-image: url(../public/homepage-5.JPG);
+}
+
+.homepage6 {
+  background-image: url(../public/homepage-06.JPG);
+}
+
+.homepage7 {
+  background-image: url(../public/homepage-07.JPG);
+}
+
+.homepage8 {
+  background-image: url(../public/homepage-08.JPG);
+}
+
+.homepage9 {
+  background-image: url(../public/homepage-09.JPG);
+}
+
+.homepage10 {
+  background-image: url(../public/homepage-10.JPG);
+}
+
+.homepage11 {
+  background-image: url(../public/homepage-11.JPG);
+}
+
+.homepage12 {
+  background-image: url(../public/homepage-12.JPG);
+}
+
+.homepage13 {
+  background-image: url(../public/homepage-13.JPG);
+}
+
+.homepage14 {
+  background-image: url(../public/homepage-14.JPG);
+}
+
+.news {
+  background-image: url(../public/news.PNG);
+}
 
 .service-item:first-child {
   margin-top: 2rem;

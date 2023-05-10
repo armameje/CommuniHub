@@ -3,7 +3,7 @@ import "./style.css";
 
 export default function Features() {
   return (
-    <section className="w-auto h-auto flex flex-col justify-center items-center px-48 py-20 gap-8">
+    <section className="w-auto h-auto bg-[rgb(250,236,225)] flex flex-col justify-center items-center px-48 py-20 gap-8">
       <p className="indent-8 text-center mb-8">
         Introducing CommuniHub - the all-in-one software solution for fostering community engagement, enhancing security, and promoting local businesses within residential areas. Join groups, share
         resources, access services, and support local businesses all in one place. Strengthen your community with CommuniHub and improve the quality of life for all residents
