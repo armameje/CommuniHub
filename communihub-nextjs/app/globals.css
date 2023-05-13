@@ -2,12 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
 /* @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
@@ -190,7 +184,7 @@ body.active-service-modal {
   max-width: 100%;
 }
 
-input[type=radio] {
+input[type="radio"] {
   display: none;
 }
 
@@ -214,4 +208,9 @@ input[type=radio] {
 
 .map-bg {
   background-image: url(../public/maps.png);
+}
+
+.full-bleed {
+  box-shadow: 0 0 0 100vmax rgb(1, 104, 85);
+  clip-path: inset(0 -100vmax);
 }

@@ -8,7 +8,7 @@ import StarRating from "./star-rating";
 export default function ServiceModal({ serviceName, toggleModal, personnel = [] }: serviceModal) {
 
   return (
-    <div className="modal z-20 relative">
+    <div className="modal z-40 relative">
       <div onClick={toggleModal} className="service-modal-overlay"></div>
       <div className="modal-content flex flex-col">
         <div className="flex justify-between">

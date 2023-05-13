@@ -1,8 +1,8 @@
 export default function Welcome() {
     return (
-      <section className="w-auto h-[600px] bg-[rgb(181,162,149)] flex flex-col justify-center items-center gap-4">
+      <section className="w-auto h-[600px] bg-[rgb(200,189,180)] flex flex-col justify-center items-center gap-4">
         <h1 className="text-4xl">Welcome to Our Community</h1>
-        <p className="px-72 indent-8">
+        <p className="px-72 indent-8 text-center">
         Join us on a journey to discover the heart and soul of our community. 
         Through the personal stories of our residents and the places they call home, 
         we'll take you on an immersive exploration of what makes us unique. 

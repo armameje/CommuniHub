@@ -1,6 +1,6 @@
 export default function News() {
   return (
-    <section className="w-auto h-[700px] bg-[rgb(250,236,225)] flex flex-col justify-center items-center gap-4">
+    <section className="w-fill h-auto bg-[rgb(250,236,225)] flex flex-col justify-center items-center gap-4 py-16">
       <h1 className="text-4xl">"Stay Up-to-Date with the Latest News and Announcements!"</h1>
       <p className="px-72 indent-8">
         CommuniHub ensures you stay up-to-date on the topics that matter most to you. Our user-friendly interface makes it simple to navigate and find exactly what you're looking for. Join the

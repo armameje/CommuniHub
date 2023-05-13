@@ -45,7 +45,7 @@ export default function NavBar() {
           </span>
         </div>
         <a href="#" className="border-2 border-stone-950 rounded-full p-2">
-          How to use?
+          Login
         </a>
       </div>
     </nav>
