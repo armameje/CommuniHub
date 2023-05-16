@@ -33,8 +33,8 @@ export default async function MarketPage({ params: { marketId } }: Params) {
         <div className="flex flex-col items-start justify-between gap-2">
           <h1 className="text-3xl font-bold">{marketItem.name}</h1>
           <div className="flex my-6 gap-1">
-            {[...Array(5)].map((star) => {
-              return <FaStar color="#e4e5e9" />;
+            {[...Array(5)].map((star, i) => {
+              return <FaStar key={i + 1} color="#e4e5e9" />;
             })}
           </div>
           <div>Contact Number: {marketItem.contactNumber}</div>
@@ -44,8 +44,8 @@ export default async function MarketPage({ params: { marketId } }: Params) {
         </div>
         <div className="flex flex-col gap-4 mt-16 items-center">
           <h1 className="text-3xl font-bold mb-8">Menu</h1>
-          {marketItem.menuItems.map((item) => {
-            return <MenuItem name={item.name} price={item.price} itemCode={item.itemCode} />;
+          {marketItem.menuItems.map((item, x) => {
+            return <MenuItem key={x + 1} name={item.name} price={item.price} itemCode={item.itemCode} />;
           })}
         </div>
       </div>

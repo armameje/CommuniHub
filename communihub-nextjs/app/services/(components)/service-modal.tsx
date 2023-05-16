@@ -16,9 +16,9 @@ export default function ServiceModal({ serviceName, toggleModal, modal, personne
               <GrClose onClick={toggleModal} />
             </div>
             <div className="flex flex-col gap-4 mt-4">
-              {personnel.map((person) => {
+              {personnel.map((person, i) => {
                 return (
-                  <div className="flex justify-between mb-4 h-[150px]">
+                  <div key={i + 1} className="flex justify-between mb-4 h-[150px]">
                     <div className="flex gap-6 w-3/5">
                       <div className="w-36 overflow-hidden">
                         <img src="/musky.jpg" alt="" className="worker-img" />

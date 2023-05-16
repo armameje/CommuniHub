@@ -25,7 +25,7 @@ export default function StarRating() {
         {[...Array(5)].map((star, index) => {
           const currentRating = index + 1;
           return (
-            <label>
+            <label key={currentRating}>
               <input type="radio" name="rating" value={currentRating} onClick={clickReview ? handleStarRate : () => {}} />
               <FaStar
                 className="star"
