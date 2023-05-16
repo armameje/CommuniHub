@@ -4,7 +4,6 @@ import { FaStar } from "react-icons/fa";
 import MenuItem from "../(components)/menu-item";
 import { getServerSession } from "next-auth/next";
 import { redirect } from "next/navigation";
-import { authOptions } from "@/app/api/auth/[...nextauth]/route";
 
 type Params = {
   params: {

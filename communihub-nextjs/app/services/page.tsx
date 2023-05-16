@@ -2,7 +2,6 @@ import ServiceBox from "./(components)/service-box";
 import { servicesList } from "@/public/services-list";
 import { getServerSession } from "next-auth/next";
 import { redirect } from "next/navigation";
-import { authOptions } from "../api/auth/[...nextauth]/route";
 
 export const metadata = {
   title: "Communihub Services",
