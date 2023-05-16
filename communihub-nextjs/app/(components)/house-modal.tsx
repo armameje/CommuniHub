@@ -1,3 +1,5 @@
+"use client";
+
 import { house } from "@/public/interface/iHouseList";
 import { GrClose } from "react-icons/gr";
 import { motion, AnimatePresence } from "framer-motion";

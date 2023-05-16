@@ -125,6 +125,9 @@ body {
   bottom: 0;
   right: 0;
   position: fixed;
+}
+
+.service-modal-overlay {
   background: rgba(49, 49, 49, 0.8);
 }
 
@@ -234,3 +237,28 @@ input.form-input:valid ~ label.form-label {
   top: -20px;
   scale: 1.2;
 }
+
+.market-1 {
+  background-image: url(../public/market-1.jpg);
+}
+
+.market-2 {
+  background-image: url(../public/market-2.jpg);
+}
+
+.market-3 {
+  background-image: url(../public/market-3.jpg);
+}
+
+.market-4 {
+  background-image: url(../public/market-4.jpg);
+}
+
+.market-5 {
+  background-image: url(../public/market-5.jpg);
+}
+
+.market-6 {
+  background-image: url(../public/market-6.jpg);
+}
+

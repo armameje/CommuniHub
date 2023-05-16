@@ -20,7 +20,7 @@ export default function StarRating() {
   }
 
   return (
-    <div>
+    <div className="relative">
       <div className="flex w-full justify-center">
         {[...Array(5)].map((star, index) => {
           const currentRating = index + 1;

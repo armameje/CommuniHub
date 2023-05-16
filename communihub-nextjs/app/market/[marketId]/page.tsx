@@ -42,13 +42,10 @@ export default async function MarketPage({ params: { marketId } }: Params) {
           <div>Payments: {marketItem.payments}</div>
           <div>Time: {marketItem.time}</div>
         </div>
-        <div>
-          <img src="" alt="" />
-        </div>
         <div className="flex flex-col gap-4 mt-16 items-center">
-          <h1>Menu</h1>
+          <h1 className="text-3xl font-bold mb-8">Menu</h1>
           {marketItem.menuItems.map((item) => {
-            return <MenuItem name={item.name} price={item.price} />;
+            return <MenuItem name={item.name} price={item.price} itemCode={item.itemCode} />;
           })}
         </div>
       </div>

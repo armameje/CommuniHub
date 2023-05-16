@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function NavBar() {
 
   return (
-    <nav className="w-full flex justify-between border-2 items-center border-stone-800 px-10 py-1 sticky top-0 z-30 bg-[rgba(255,99,71,0.2)]">
+    <nav className="w-full flex justify-between border-2 items-center border-stone-800 px-10 py-1 sticky top-0 z-10 bg-[rgba(255,99,71,0.2)]">
       <div className="relative w-64 h-16 overflow-visible">
         <img src="/new_logo.png" alt="communihub" className="absolute top-[-135%]" />
       </div>
@@ -26,8 +26,8 @@ export default function NavBar() {
           About Us
         </Link>
       </div>
-      <div className="flex gap-8">
-        <div className="flex items-center gap-4">
+      <div className="flex gap-8 w-[205px]">
+        {/* <div className="flex items-center gap-4">
           <span>
             <FaFacebookF />
           </span>
@@ -43,7 +43,7 @@ export default function NavBar() {
         </div>
         <a href="#" className="border-2 border-stone-950 rounded-full p-2">
           Login
-        </a>
+        </a> */}
       </div>
     </nav>
   );

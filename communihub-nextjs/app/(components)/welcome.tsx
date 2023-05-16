@@ -1,6 +1,6 @@
 export default function Welcome() {
     return (
-      <section className="w-auto h-[600px] bg-[rgb(200,189,180)] flex flex-col justify-center items-center gap-4">
+      <section className="w-auto h-[600px] bg-[rgb(200,189,180)] flex flex-col justify-center items-center gap-4 overflow-hidden">
         <h1 className="text-4xl">Welcome to Our Community</h1>
         <p className="px-72 indent-8 text-center">
         Join us on a journey to discover the heart and soul of our community. 

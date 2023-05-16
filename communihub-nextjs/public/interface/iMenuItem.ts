@@ -1,4 +1,5 @@
 export interface menuItem {
     name: string,
-    price: number | string
+    price: number | string,
+    itemCode: string,
 }

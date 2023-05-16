@@ -18,26 +18,11 @@ export default function MarketBox({ name, ratings, contactNumber, address, payme
   }
 
   return (
-    <div className="w-[292px] h-[292px] py-[27px] px-[30px] flex flex-col justify-end bg-orange-300">
-      <Link onClick={addViews} href={`/market/${marketId}`}>
+    <div className={`w-[292px] h-[292px] py-[27px] px-[30px] flex flex-col justify-end bg-cover bg-center bg-no-repeat market-${marketId}`}>
+      <Link onClick={addViews} href={`/market/${marketId}`} className="text-lg text-white font-bold">
         {name}
       </Link>
       <hr className="my-4" />
-      <div className="flex justify-between w-full">
-        <div className="flex">
-          <span className="flex items-center">
-            <AiOutlineEye />
-            <span>{views}</span>
-          </span>
-          <span className="flex items-center">
-            <BiMessage />
-            <span>8</span>
-          </span>
-        </div>
-        <div>
-          <AiOutlineHeart />
-        </div>
-      </div>
     </div>
   );
 }

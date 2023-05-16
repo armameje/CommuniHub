@@ -55,9 +55,9 @@ export default async function Help() {
         </div>
       </div>
       <div className="flex flex-col items-center px-52 py-24 bg-[rgb(221,190,166)]">
-        <div className="flex flex-col items-center gap-16 mb-24">
-          <h1>Talk to real people</h1>
-          <p>
+        <div className="flex flex-col items-center gap-16 mb-24 px-32">
+          <h1 className="text-7xl">Talk to real people</h1>
+          <p className="text-center">
             Amazing customer support is the #1 reason our creators cite for choosing CommuniHub. Our support team knows that the building a great community comes with challenges, and we're here to
             help you every step of the way.
           </p>
@@ -66,15 +66,6 @@ export default async function Help() {
           {memberList.map(({ key, name, location, id }) => {
             return <MemberBox key={key} name={name} location={location} id={id} />;
           })}
-        </div>
-      </div>
-      <div>
-        <div>FAQs</div>
-        <div>
-          <div>
-            <h1>Communihub</h1>
-            <div></div>
-          </div>
         </div>
       </div>
     </section>
