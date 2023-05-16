@@ -1,6 +1,5 @@
 import { getServerSession } from "next-auth/next";
 import { redirect } from "next/navigation";
-import { authOptions } from "../api/auth/[...nextauth]/route";
 
 export const metadata = {
   title: "About Communihub",

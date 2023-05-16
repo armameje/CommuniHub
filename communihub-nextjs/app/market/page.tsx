@@ -2,7 +2,6 @@ import MarketBox from "./(components)/market-box";
 import { marketList } from "@/public/market-list";
 import { getServerSession } from "next-auth/next";
 import { redirect } from "next/navigation";
-import { authOptions } from "../api/auth/[...nextauth]/route";
 
 export const metadata = {
   title: "Communihub Market"

@@ -2,7 +2,6 @@ import { memberList } from "@/public/member-list";
 import MemberBox from "./(components)/member-box";
 import { getServerSession } from "next-auth/next";
 import { redirect } from "next/navigation";
-import { authOptions } from "../api/auth/[...nextauth]/route";
 
 export const metadata = {
   title: "Contact Communihub",
