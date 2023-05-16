@@ -12,10 +12,12 @@ interface houseModalProps extends house {
 export default function HouseModal(props: houseModalProps) {
   const { ownerId, owner, capacity, age, birthday, hobbies, onModalClose, showHouseModal } = props;
 
-  if (showHouseModal) {
-    document.body.classList.add("active-service-modal");
-  } else {
-    document.body.classList.remove("active-service-modal");
+  if (typeof window !== "undefined") {
+    if (showHouseModal) {
+      document.body.classList.add("active-service-modal");
+    } else {
+      document.body.classList.remove("active-service-modal");
+    }
   }
 
   return (
