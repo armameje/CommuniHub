@@ -84,7 +84,6 @@ export default function Map() {
           className="w-[55px] h-[55px] bg-[rgb(250,236,225)] absolute top-[50%] right-[15%] rotate-[-8deg] hover:cursor-pointer"
         ></div>
       </div>
-      {showHouseModal && (
         <HouseModal
           onModalClose={handleModalClose}
           ownerId={houseKey.ownerId}
@@ -93,8 +92,8 @@ export default function Map() {
           age={houseKey.age}
           birthday={houseKey.birthday}
           hobbies={houseKey.hobbies}
+          showHouseModal={showHouseModal}
         />
-      )}
     </section>
   );
 }

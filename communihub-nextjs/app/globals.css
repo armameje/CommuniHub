@@ -125,17 +125,13 @@ body {
   bottom: 0;
   right: 0;
   position: fixed;
-}
-
-.service-modal-overlay {
   background: rgba(49, 49, 49, 0.8);
 }
 
 .modal-content {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 0;
+  left: 25%;
   line-height: 1.4;
   background: #f1f1f1;
   padding: 14px 28px;
@@ -213,4 +209,28 @@ input[type="radio"] {
 .full-bleed {
   box-shadow: 0 0 0 100vmax rgb(1, 104, 85);
   clip-path: inset(0 -100vmax);
+}
+
+.login-logo {
+  background-image: url(../public/Logo-Black.png);
+}
+
+.form-label {
+  position: absolute;
+  left: 5px;
+  top: 0;
+  scale: 1;
+  transition: 0.3s;
+  pointer-events: none;
+}
+
+.form-input {
+  outline: none;
+  border-bottom: 1px solid black;
+}
+
+input.form-input:focus ~ label.form-label,
+input.form-input:valid ~ label.form-label {
+  top: -20px;
+  scale: 1.2;
 }

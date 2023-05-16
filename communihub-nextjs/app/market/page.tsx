@@ -1,12 +1,21 @@
 import MarketBox from "./(components)/market-box";
 import { marketList } from "@/public/market-list";
+import { getServerSession } from "next-auth/next";
+import { redirect } from "next/navigation";
+import { authOptions } from "../api/auth/[...nextauth]/route";
 
 export const metadata = {
   title: "Communihub Market"
 };
 
 
-export default function Market() {
+export default async function Market() {
+  // const session = await getServerSession(authOptions);
+
+  // if (!session) {
+  //   redirect("/auth/login?callbackUrl=/");
+  // }
+  
   return (
     <section className="w-auto h-auto flex flex-col items-center px-[270px] pt-16 pb-16">
       <div>

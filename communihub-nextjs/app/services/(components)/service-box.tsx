@@ -34,7 +34,7 @@ export default function ServiceBox({ serviceName, personnel }: service) {
           </div>
         </div>
       </div>
-      {modal && <ServiceModal serviceName={serviceName} personnel={personnel} toggleModal={toggleModal} />}
+      <ServiceModal modal={modal} serviceName={serviceName} personnel={personnel} toggleModal={toggleModal} />
     </section>
   );
 }

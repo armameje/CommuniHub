@@ -1,6 +1,3 @@
-"use client";
-
-import { useState } from "react";
 import { FaFacebookF, FaPinterestP, FaTwitter } from "react-icons/fa";
 import { BsInstagram } from "react-icons/bs";
 import Link from "next/link";

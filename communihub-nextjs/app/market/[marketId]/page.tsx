@@ -1,9 +1,10 @@
-"use client";
-
 import { market } from "@/public/interface/iMarket";
 import { marketList } from "@/public/market-list";
 import { FaStar } from "react-icons/fa";
 import MenuItem from "../(components)/menu-item";
+import { getServerSession } from "next-auth/next";
+import { redirect } from "next/navigation";
+import { authOptions } from "@/app/api/auth/[...nextauth]/route";
 
 type Params = {
   params: {
@@ -17,7 +18,13 @@ function getMarket(marketId: number): market {
   })[0];
 }
 
-export default function MarketPage({ params: { marketId } }: Params) {
+export default async function MarketPage({ params: { marketId } }: Params) {
+  // const session = await getServerSession(authOptions);
+
+  // if (!session) {
+  //   redirect("/auth/login?callbackUrl=/");
+  // }
+
   const marketItem = getMarket(marketId);
 
   return (
@@ -26,8 +33,8 @@ export default function MarketPage({ params: { marketId } }: Params) {
         <div className="flex flex-col items-start justify-between gap-2">
           <h1 className="text-3xl font-bold">{marketItem.name}</h1>
           <div className="flex my-6 gap-1">
-            {[...Array(5)].map(star => {
-              return <FaStar color="#e4e5e9" />
+            {[...Array(5)].map((star) => {
+              return <FaStar color="#e4e5e9" />;
             })}
           </div>
           <div>Contact Number: {marketItem.contactNumber}</div>

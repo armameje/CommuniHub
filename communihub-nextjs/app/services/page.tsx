@@ -1,11 +1,21 @@
 import ServiceBox from "./(components)/service-box";
 import { servicesList } from "@/public/services-list";
+import { getServerSession } from "next-auth/next";
+import { redirect } from "next/navigation";
+import { authOptions } from "../api/auth/[...nextauth]/route";
 
 export const metadata = {
   title: "Communihub Services",
 };
 
-export default function Services() {
+export default async function Services() {
+  // const session = await getServerSession(authOptions);
+  // console.log(session);
+
+  // if (!session) {
+  //   redirect("/auth/login?callbackUrl=/services");
+  // }
+
   return (
     <section className="w-auto h-auto flex flex-col items-center px-[270px] pt-16 pb-16">
       <div className="flex flex-col gap-8">
