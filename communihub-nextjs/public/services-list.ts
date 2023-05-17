@@ -6,6 +6,7 @@ export const servicesList: service[] = [
     {
         key: 1,
         serviceName: "CLEANING SERVICES",
+        serviceNumber: 1,
         personnel: [
             {
                 name: "Johnny Sins",
@@ -13,7 +14,7 @@ export const servicesList: service[] = [
                 status: "Available",
                 contactNumber: 9887434,
                 skill: cleaning.IndoorCleaing,
-                rating: 3
+                rating: 'cleaner-1'
             } satisfies personnel,
             {
                 name: "Mang Thomas",
@@ -21,7 +22,7 @@ export const servicesList: service[] = [
                 status: "Unavailable",
                 contactNumber: 9887434,
                 skill: cleaning.IndoorCleaing,
-                rating: 3
+                rating: 'cleaner-2'
             } satisfies personnel,
             {
                 name: "Damaso Kun",
@@ -29,13 +30,14 @@ export const servicesList: service[] = [
                 status: "Available",
                 contactNumber: 9887434,
                 skill: cleaning.OutdoorCleaning,
-                rating: 3
+                rating: 'cleaner-3'
             } satisfies personnel
         ] 
     } satisfies service,
     {
         key: 2,
         serviceName: "GARDENING SERVICES",
+        serviceNumber: 2,
         personnel: [
             {
                 name: "Johnny Sins",
@@ -43,7 +45,7 @@ export const servicesList: service[] = [
                 status: "Available",
                 contactNumber: 9887434,
                 skill: gardening.LawnMowing,
-                rating: 3
+                rating: 'gardener-1'
             } satisfies personnel,
             {
                 name: "Mang Thomas",
@@ -51,7 +53,7 @@ export const servicesList: service[] = [
                 status: "Unavailable",
                 contactNumber: 9887434,
                 skill: gardening.Landscaping,
-                rating: 3
+                rating: 'gardener-2'
             } satisfies personnel,
             {
                 name: "Damaso Kun",
@@ -59,13 +61,14 @@ export const servicesList: service[] = [
                 status: "Available",
                 contactNumber: 9887434,
                 skill: gardening.Landscaping,
-                rating: 3
+                rating: 'gardener-3'
             } satisfies personnel
         ]
     } satisfies service,
     {
         key: 3,
         serviceName: "PLUMBING SERVICES",
+        serviceNumber: 3,
         personnel: [
             {
                 name: "Johnny Sins",
@@ -73,7 +76,7 @@ export const servicesList: service[] = [
                 status: "Available",
                 contactNumber: 9887434,
                 skill: plumbing.Installation,
-                rating: 3
+                rating: 'plumber-1'
             } satisfies personnel,
             {
                 name: "Mang Thomas",
@@ -81,7 +84,7 @@ export const servicesList: service[] = [
                 status: "Unavailable",
                 contactNumber: 9887434,
                 skill: plumbing.Repairs,
-                rating: 3
+                rating: 'plumber-2'
             } satisfies personnel,
             {
                 name: "Damaso Kun",
@@ -89,13 +92,14 @@ export const servicesList: service[] = [
                 status: "Available",
                 contactNumber: 9887434,
                 skill: plumbing.Cleaning,
-                rating: 3
+                rating: 'plumber-3'
             } satisfies personnel
         ]
     } satisfies service,
     {
         key: 4,
         serviceName: "ELECTRICIAN SERVICES",
+        serviceNumber: 4,
         personnel: [
             {
                 name: "Johnny Sins",
@@ -103,7 +107,7 @@ export const servicesList: service[] = [
                 status: "Available",
                 contactNumber: 9887434,
                 skill: electrician.Installation,
-                rating: 3
+                rating: 'electrician-1'
             } satisfies personnel,
             {
                 name: "Mang Thomas",
@@ -111,7 +115,7 @@ export const servicesList: service[] = [
                 status: "Unavailable",
                 contactNumber: 9887434,
                 skill: electrician.Repairs,
-                rating: 3
+                rating: 'electrician-2'
             } satisfies personnel,
             {
                 name: "Damaso Kun",
@@ -119,13 +123,14 @@ export const servicesList: service[] = [
                 status: "Available",
                 contactNumber: 9887434,
                 skill: electrician.Safety,
-                rating: 3
+                rating: 'electrician-3'
             } satisfies personnel
         ]
     } satisfies service,
     {
         key: 5,
         serviceName: "FASHION SERVICES",
+        serviceNumber: 5,
         personnel: [
             {
                 name: "Johnny Sins",
@@ -133,7 +138,7 @@ export const servicesList: service[] = [
                 status: "Available",
                 contactNumber: 9887434,
                 skill: fashion.Stylist,
-                rating: 3
+                rating: 'fashion-1'
             } satisfies personnel,
             {
                 name: "Mang Thomas",
@@ -141,7 +146,7 @@ export const servicesList: service[] = [
                 status: "Unavailable",
                 contactNumber: 9887434,
                 skill: fashion.Rental,
-                rating: 3
+                rating: 'fashion-2'
             } satisfies personnel,
             {
                 name: "Damaso Kun",
@@ -149,13 +154,14 @@ export const servicesList: service[] = [
                 status: "Available",
                 contactNumber: 9887434,
                 skill: fashion.Retailing,
-                rating: 3
+                rating: 'fashion-3'
             } satisfies personnel
         ]
     } satisfies service,
     {
         key: 6,
         serviceName: "TRANSPORTATION SERVICES",
+        serviceNumber: 6,
         personnel: [
             {
                 name: "Johnny Sins",
@@ -163,7 +169,7 @@ export const servicesList: service[] = [
                 status: "Available",
                 contactNumber: 9887434,
                 skill: transportation.Jeep,
-                rating: 3
+                rating: 'transpo-1'
             } satisfies personnel,
             {
                 name: "Mang Thomas",
@@ -171,7 +177,7 @@ export const servicesList: service[] = [
                 status: "Unavailable",
                 contactNumber: 9887434,
                 skill: transportation.Trike,
-                rating: 3
+                rating: 'transpo-2'
             } satisfies personnel,
             {
                 name: "Damaso Kun",
@@ -179,7 +185,7 @@ export const servicesList: service[] = [
                 status: "Available",
                 contactNumber: 9887434,
                 skill: transportation.SUV,
-                rating: 3
+                rating: 'transpo-3'
             } satisfies personnel
         ]
     } satisfies service

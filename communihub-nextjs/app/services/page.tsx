@@ -26,7 +26,7 @@ export default async function Services() {
       </div>
       <div className="flex flex-col flex-wrap items-center justify-start gap-8 h-[1100px] w-[818px] relative pt-16">
         {servicesList.map((service) => {
-          return <ServiceBox key={service.key} serviceName={service.serviceName} personnel={service.personnel} />;
+          return <ServiceBox key={service.key} serviceNumber={service.serviceNumber} serviceName={service.serviceName} personnel={service.personnel} />;
         })}
       </div>
     </section>

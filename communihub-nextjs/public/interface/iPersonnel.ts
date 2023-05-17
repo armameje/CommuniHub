@@ -6,5 +6,5 @@ export interface personnel {
     status: string,
     contactNumber: number,
     skill: cleaning | electrician | fashion | gardening | transportation | plumbing,
-    rating: number
+    rating: string,
 }

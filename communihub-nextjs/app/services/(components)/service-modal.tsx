@@ -21,7 +21,7 @@ export default function ServiceModal({ serviceName, toggleModal, modal, personne
                   <div key={i + 1} className="flex justify-between mb-4 h-[150px]">
                     <div className="flex gap-6 w-3/5">
                       <div className="w-36 overflow-hidden">
-                        <img src="/musky.jpg" alt="" className="worker-img" />
+                        <img src={`/${person.rating}.jpg`} alt="" className="worker-img" />
                       </div>
                       <div className="flex flex-col gap-1 justify-center grow">
                         <div className="font-bold">{person.name}</div>

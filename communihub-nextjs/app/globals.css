@@ -262,3 +262,26 @@ input.form-input:valid ~ label.form-label {
   background-image: url(../public/market-6.jpg);
 }
 
+.service-1 {
+  background-image: url(../public/service-1.jpg);
+}
+
+.service-2 {
+  background-image: url(../public/service-2.jpg);
+}
+
+.service-3 {
+  background-image: url(../public/service-3.jpg);
+}
+
+.service-4 {
+  background-image: url(../public/service-4.jpg);
+}
+
+.service-5 {
+  background-image: url(../public/service-5.jpg);
+}
+
+.service-6 {
+  background-image: url(../public/service-6.jpg);
+}
