@@ -23,8 +23,8 @@ export default function Services() {
         <>
           <section className="w-auto h-[1200px] bg-[rgb(250,236,225)] flex flex-col items-center px-[270px] pt-16 pb-16">
             <div className="flex flex-col gap-5">
-              <h1 className="text-6xl">Services</h1>
-              <p className="text-1xl">
+              <h1 className="text-1xl">Services</h1>
+              <p className="text-1xl italic">
               Looking for expert help with your home-related problems? Look no further! Our platform connects you with skilled professionals who specialize in various services. From plumbing and electrical issues to landscaping and more, our extensive network of reliable experts is ready to assist you. We ensure quality service by thoroughly screening each professional. Don't stress over your home tasks - let us connect you with the right person to make your life easier.
               </p>
             </div>

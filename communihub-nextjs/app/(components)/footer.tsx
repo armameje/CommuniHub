@@ -35,7 +35,7 @@ export default function Footer() {
       </div>
       <div className="flex flex-col gap-2">
         <h1 className="text-4xl">About Us</h1>
-        <p>
+        <p className="italic">
           CommuniHub is a software platform designed to bring communities together by streamlining essential functions and encouraging interactions between residents. Our user-friendly platform
           features a comprehensive community map, entry and exit detection system for added security, an online market for local businesses, and group messaging for residents to work together on
           projects and events. Our goal is to promote community building and support local businesses, ultimately improving the quality of life for residents.
