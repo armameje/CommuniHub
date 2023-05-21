@@ -8,7 +8,8 @@ export default function MemberBox({ name, location, id  }:member) {
       </div>
       <div className="flex flex-col items-center justify-center gap-4 mt-8">
         <div className="font-bold text-[rgb(29,14,3)]">{name}</div>
-        <div className="text-center text-[rgb(100,94,90)]">where to find: {location}</div>
+        <div className="text-center text-[rgb(100,94,90)]">Address: {location}</div>
+
       </div>
     </div>
   );
