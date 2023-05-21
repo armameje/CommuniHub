@@ -5,7 +5,7 @@ export const authOptions: NextAuthOptions = {
   session: {
     strategy: "jwt",
   },
-  providers: [
+  providers: [ 
     CredentialsProvider({
       type: "credentials",
       credentials: {},
