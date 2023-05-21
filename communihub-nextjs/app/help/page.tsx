@@ -16,7 +16,7 @@ export default async function Help() {
 
   return (
     <section>
-      <div className="flex flex-col item-center justify-center gap-8 bg-[rgb(250,236,225)] pb-16">
+      <div className="flex flex-col item-center justify-center gap-10 bg-[rgb(250,236,225)] pb-16">
         <div className="flex justify-center items-center mt-16 mb-6">
           <h1 className="text-6xl">Contact Us</h1>
         </div>
@@ -57,8 +57,7 @@ export default async function Help() {
         <div className="flex flex-col items-center gap-16 mb-24 px-32">
           <h1 className="text-7xl">Talk to real people</h1>
           <p className="text-center">
-            Amazing customer support is the #1 reason our creators cite for choosing CommuniHub. Our support team knows that the building a great community comes with challenges, and we're here to
-            help you every step of the way.
+          CommuniHub's exceptional customer support, always ready to help creators navigate the complexities of community building, is a primary reason they choose us. Our dedicated team, available 24/7, assists with everything from basic setup to advanced growth strategies, ensuring that you can focus on creating content and fostering connections. Always striving for improvement, we value your feedback and understand that our success is tied to yours. At CommuniHub, we don't just provide a service, but build enduring relationships, standing with you every step of your journey.
           </p>
         </div>
         <div className="w-full flex flex-wrap justify-center gap-24">
