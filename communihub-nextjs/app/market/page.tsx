@@ -16,35 +16,32 @@ export default async function Market() {
   // }, [session, router]);
 
   return (
-    <>
-      {/* {session?.status === "authenticated" && (
-        <> */}
-      <section className="w-auto h-auto bg-[rgb(250,236,225)] flex flex-col items-center px-[270px] pt-16 pb-16">
+    <section className="w-auto h-auto flex flex-col items-center px-[270px] pt-16 pb-16">
+      <div className="flex flex-col gap-4">
+        <h1 className="text-6xl font-bold">Market</h1>
         <div>
-          <h1 className="text-6xl font-bold">Market</h1>
-          <p className="text-2xl">"Discover the Flavors and Community Spirit of Villas Del Pueblo Market: Where Local Vendors and Specials Come Together."</p>
-        </div>
-        <div className="w-[940px] h-[616px] flex flex-col flex-wrap gap-8 my-16">
-          {marketList.map((market) => {
-            return (
-              <MarketBox
-                key={market.key}
-                marketId={market.marketId}
-                name={market.name}
-                ratings={market.ratings}
-                contactNumber={market.contactNumber}
-                address={market.address}
-                payments={market.address}
-                time={market.time}
-                menuItems={market.menuItems}
-              />
-            );
-          })}
-        </div>
-      </section>
-      <Footer />
-      {/* </>
-      )} */}
-    </>
+  <p className="text-1xl italic">
+    Experience the vibrant blend of flavors and community at Villas Del Pueblo Market. This unique marketplace brings together local vendors and specials, creating a rich tapestry of tastes and shared connections. Immerse yourself in the diverse array of offerings and discover the true essence of this bustling hub where culinary delights and community spirit intertwine.
+  </p>
+</div>
+      </div>
+      <div className="w-[940px] h-[616px] flex flex-col flex-wrap gap-8 my-10">
+        {marketList.map((market) => {
+          return (
+            <MarketBox
+              key={market.key}
+              marketId={market.marketId}
+              name={market.name}
+              ratings={market.ratings}
+              contactNumber={market.contactNumber}
+              address={market.address}
+              payments={market.address}
+              time={market.time}
+              menuItems={market.menuItems}
+            />
+          );
+        })}
+      </div>
+    </section>
   );
 }

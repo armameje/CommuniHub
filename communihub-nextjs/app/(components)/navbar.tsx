@@ -11,7 +11,7 @@ export default function NavBar() {
       </div>
     <nav className="w-full flex justify-between border-2 items-center border-stone-800 px-16 py-6 sticky">
       <div className="flex items-center relative">
-        <div className="logo w-[150px] h-[120px] bg-cover absolute"></div>
+        <div className="logo w-[150px] h-[150px] bg-cover absolute"></div>
         <input type="text" placeholder="Search..." className="ml-44 w-16" />
       </div>
       <><div className="flex justify-around gap-8 ">
