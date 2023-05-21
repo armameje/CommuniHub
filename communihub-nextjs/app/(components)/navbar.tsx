@@ -5,9 +5,16 @@ import Link from "next/link";
 export default function NavBar() {
 
   return (
+<<<<<<< Updated upstream
     <nav className="w-full flex justify-between border-2 items-center border-stone-800 px-10 py-1 sticky top-0 z-10 bg-[rgba(255,99,71,0.2)]">
       <div className="relative w-64 h-16 overflow-visible">
         <img src="/new_logo.png" alt="communihub" className="absolute top-[-135%]" />
+=======
+    <nav className="w-full flex justify-between border-2 items-center border-stone-800 px-16 py-6 sticky">
+      <div className="flex items-center relative">
+        <div className="logo w-[150px] h-[120px] bg-cover absolute"></div>
+        <input type="text" placeholder="Search..." className="ml-44 w-16" />
+>>>>>>> Stashed changes
       </div>
       <div className="flex justify-around gap-8 ">
         <Link href="/" className="hover:text-[#015243] font-bold">

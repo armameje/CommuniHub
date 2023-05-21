@@ -11,7 +11,10 @@ export default function Home() {
       <Features />
       <Welcome />
       <News />
+<<<<<<< Updated upstream
       <Map />
+=======
+>>>>>>> Stashed changes
     </>
   );
 }
