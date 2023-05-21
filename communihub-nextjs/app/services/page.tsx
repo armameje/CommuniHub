@@ -5,14 +5,20 @@ import { servicesList } from "@/public/services-list";
 import { useSession } from "next-auth/react";
 import { useRouter } from "next/navigation";
 import Footer from "../(components)/footer";
+import { useEffect } from "react";
 
 export default function Services() {
   const session = useSession();
   const { push } = useRouter();
 
+  useEffect(() => {
+    console.log(session);
+    if (session.status !== "authenticated") push("/auth/login");
+  }, []);
+
   return (
     <>
-      {session?.status === "authenticated" ? (
+      {session?.status === "authenticated" && (
         <>
           <section className="w-auto h-auto flex flex-col items-center px-[270px] pt-16 pb-16">
             <div className="flex flex-col gap-8">
@@ -30,8 +36,6 @@ export default function Services() {
           </section>
           <Footer />
         </>
-      ) : (
-        push("/auth/login")
       )}
     </>
   );

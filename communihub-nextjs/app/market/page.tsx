@@ -2,18 +2,23 @@
 
 import MarketBox from "./(components)/market-box";
 import { marketList } from "@/public/market-list";
-import Footer from "../(components)/footer";
 import { useSession } from "next-auth/react";
-import { useRouter } from "next/navigation";
+import { useRouter, usePathname } from "next/navigation";
+import Footer from "../(components)/footer";
+import { useEffect, useState } from "react";
 
 export default async function Market() {
-  const session = useSession();
-  const { push } = useRouter();
+  // const session = useSession();
+  // const {push} = useRouter();
+
+  // useEffect(() => {
+  //   if (session.status !== "authenticated") push("/auth/login");
+  // }, []);
 
   return (
     <>
-      {session.status === "authenticated" ? (
-        <>
+      {/* {session?.status === "authenticated" && (
+        <> */}
           <section className="w-auto h-auto flex flex-col items-center px-[270px] pt-16 pb-16">
             <div>
               <h1 className="text-6xl font-bold">Market</h1>
@@ -38,10 +43,8 @@ export default async function Market() {
             </div>
           </section>
           <Footer />
-        </>
-      ) : (
-        push("/auth/login")
-      )}
+        {/* </>
+      )} */}
     </>
   );
 }
