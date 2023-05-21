@@ -1,8 +1,18 @@
-import { FaFacebookF, FaPinterestP, FaTwitter } from "react-icons/fa";
-import { BsInstagram } from "react-icons/bs";
+"use client";
+
+import { useSession } from "next-auth/react";
+import { signOut } from "next-auth/react";
+import { useRouter } from "next/navigation";
 import Link from "next/link";
 
 export default function NavBar() {
+  const session = useSession();
+  const { push } = useRouter();
+
+  function handleSignOut() {
+    signOut({ redirect: false, callbackUrl: "/auth/login" });
+    push("/auth/login");
+  }
 
   return (
     <nav className="w-full flex justify-between border-2 items-center border-stone-800 px-10 py-1 sticky top-0 z-10 bg-[rgba(255,99,71,0.2)]">
@@ -26,25 +36,7 @@ export default function NavBar() {
           About Us
         </Link>
       </div>
-      <div className="flex gap-8 w-[205px]">
-        {/* <div className="flex items-center gap-4">
-          <span>
-            <FaFacebookF />
-          </span>
-          <span>
-            <BsInstagram />
-          </span>
-          <span>
-            <FaPinterestP />
-          </span>
-          <span>
-            <FaTwitter />
-          </span>
-        </div>
-        <a href="#" className="border-2 border-stone-950 rounded-full p-2">
-          Login
-        </a> */}
-      </div>
+      <div className="flex gap-8 w-[205px]">{session.status === "authenticated" ? <button onClick={handleSignOut}>Sign Out</button> : <Link href="/auth/login">Log In</Link>}</div>
     </nav>
   );
 }
