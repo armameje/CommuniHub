@@ -9,26 +9,26 @@ export const servicesList: service[] = [
         serviceNumber: 1,
         personnel: [
             {
-                name: "Johnny Sins",
-                age: 69,
+                name: "Leon Mangubat",
+                age: 40,
                 status: "Available",
-                contactNumber: 9887434,
+                contactNumber: 63925256853,
                 skill: cleaning.IndoorCleaing,
                 rating: 'cleaner-1'
             } satisfies personnel,
             {
-                name: "Mang Thomas",
-                age: 54,
+                name: "Angelika De Leyos",
+                age: 44,
                 status: "Unavailable",
-                contactNumber: 9887434,
+                contactNumber: 639344321445 ,
                 skill: cleaning.IndoorCleaing,
                 rating: 'cleaner-2'
             } satisfies personnel,
             {
-                name: "Damaso Kun",
-                age: 71,
+                name: "Emilio Masalat",
+                age: 30,
                 status: "Available",
-                contactNumber: 9887434,
+                contactNumber: 639742833842,
                 skill: cleaning.OutdoorCleaning,
                 rating: 'cleaner-3'
             } satisfies personnel
@@ -40,26 +40,26 @@ export const servicesList: service[] = [
         serviceNumber: 2,
         personnel: [
             {
-                name: "Johnny Sins",
-                age: 69,
+                name: "Francis Arroyo",
+                age: 39,
                 status: "Available",
-                contactNumber: 9887434,
+                contactNumber: 639753848274 ,
                 skill: gardening.LawnMowing,
                 rating: 'gardener-1'
             } satisfies personnel,
             {
-                name: "Mang Thomas",
-                age: 54,
+                name: "Jose Mario Dela Cruz",
+                age: 34,
                 status: "Unavailable",
-                contactNumber: 9887434,
+                contactNumber: 639637840093,
                 skill: gardening.Landscaping,
                 rating: 'gardener-2'
             } satisfies personnel,
             {
-                name: "Damaso Kun",
-                age: 71,
+                name: "Agapito Batumbakal",
+                age: 31,
                 status: "Available",
-                contactNumber: 9887434,
+                contactNumber: 639123137646,
                 skill: gardening.Landscaping,
                 rating: 'gardener-3'
             } satisfies personnel
@@ -71,26 +71,26 @@ export const servicesList: service[] = [
         serviceNumber: 3,
         personnel: [
             {
-                name: "Johnny Sins",
-                age: 69,
+                name: "Christian Villanueva",
+                age: 29,
                 status: "Available",
-                contactNumber: 9887434,
+                contactNumber: 639757453754 ,
                 skill: plumbing.Installation,
                 rating: 'plumber-1'
             } satisfies personnel,
             {
-                name: "Mang Thomas",
-                age: 54,
+                name: "Joshua Gonzales",
+                age: 24,
                 status: "Unavailable",
-                contactNumber: 9887434,
+                contactNumber: 639748839736 ,
                 skill: plumbing.Repairs,
                 rating: 'plumber-2'
             } satisfies personnel,
             {
-                name: "Damaso Kun",
-                age: 71,
+                name: "Kurt Sanchez",
+                age: 31,
                 status: "Available",
-                contactNumber: 9887434,
+                contactNumber: 639223449743 ,
                 skill: plumbing.Cleaning,
                 rating: 'plumber-3'
             } satisfies personnel
@@ -102,26 +102,26 @@ export const servicesList: service[] = [
         serviceNumber: 4,
         personnel: [
             {
-                name: "Johnny Sins",
-                age: 69,
+                name: "Adam Aguilar",
+                age: 39,
                 status: "Available",
-                contactNumber: 9887434,
+                contactNumber: 639669835622 ,
                 skill: electrician.Installation,
                 rating: 'electrician-1'
             } satisfies personnel,
             {
-                name: "Mang Thomas",
-                age: 54,
+                name: "Jose Manalo",
+                age: 34,
                 status: "Unavailable",
-                contactNumber: 9887434,
+                contactNumber: 639871764783 ,
                 skill: electrician.Repairs,
                 rating: 'electrician-2'
             } satisfies personnel,
             {
-                name: "Damaso Kun",
-                age: 71,
+                name: "Rodrigo Ramirez",
+                age: 41,
                 status: "Available",
-                contactNumber: 9887434,
+                contactNumber: 639849788271,
                 skill: electrician.Safety,
                 rating: 'electrician-3'
             } satisfies personnel
@@ -133,26 +133,26 @@ export const servicesList: service[] = [
         serviceNumber: 5,
         personnel: [
             {
-                name: "Johnny Sins",
-                age: 69,
+                name: "Iza Ortega",
+                age: 29,
                 status: "Available",
-                contactNumber: 9887434,
+                contactNumber: 639639275283 ,
                 skill: fashion.Stylist,
                 rating: 'fashion-1'
             } satisfies personnel,
             {
-                name: "Mang Thomas",
-                age: 54,
+                name: "Gloria Briones",
+                age: 24,
                 status: "Unavailable",
-                contactNumber: 9887434,
+                contactNumber: 63984131103 ,
                 skill: fashion.Rental,
                 rating: 'fashion-2'
             } satisfies personnel,
             {
-                name: "Damaso Kun",
-                age: 71,
+                name: "Lyka Estrera",
+                age: 26,
                 status: "Available",
-                contactNumber: 9887434,
+                contactNumber: 639368761834 ,
                 skill: fashion.Retailing,
                 rating: 'fashion-3'
             } satisfies personnel
@@ -164,26 +164,26 @@ export const servicesList: service[] = [
         serviceNumber: 6,
         personnel: [
             {
-                name: "Johnny Sins",
-                age: 69,
+                name: "Jepoy Dizon",
+                age: 29,
                 status: "Available",
-                contactNumber: 9887434,
+                contactNumber: 63924826135 ,
                 skill: transportation.Jeep,
                 rating: 'transpo-1'
             } satisfies personnel,
             {
-                name: "Mang Thomas",
-                age: 54,
+                name: "Manuel Pineda",
+                age: 44,
                 status: "Unavailable",
-                contactNumber: 9887434,
+                contactNumber: 639859242847 ,
                 skill: transportation.Trike,
                 rating: 'transpo-2'
             } satisfies personnel,
             {
-                name: "Damaso Kun",
+                name: "Tristan Espiritu",
                 age: 71,
                 status: "Available",
-                contactNumber: 9887434,
+                contactNumber: 639378371766,
                 skill: transportation.SUV,
                 rating: 'transpo-3'
             } satisfies personnel
