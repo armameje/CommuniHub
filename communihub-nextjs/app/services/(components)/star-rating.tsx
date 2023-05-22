@@ -30,7 +30,7 @@ export default function StarRating() {
               <FaStar
                 className="star"
                 size={20}
-                color={currentRating <= (hover || rating) ? "#ffc107" : "#e4e5e9"}
+                color={currentRating <= (hover || rating) ? "#ffc107" : "#ffc107"}
                 onMouseEnter={clickReview ? () => setRating(currentRating) : () => {}}
                 onMouseLeave={() => {
                   setHover(0);
