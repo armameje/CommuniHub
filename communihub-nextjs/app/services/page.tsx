@@ -17,7 +17,7 @@ export default async function Services() {
 
   return (
     <section className="w-auto h-auto flex flex-col items-center px-[270px] pt-16 pb-16 poster1-bg">
-      <h1 className="text-6xl font-bold  text-white ">Services</h1>
+      <h1 className="text-6xl font-bold  text-white">Services</h1>
       <div className="flex flex-col gap-5">
         <h1 className="text-1xl"></h1>
         <p className="text-1xl italic  text-white ">

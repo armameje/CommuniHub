@@ -5,7 +5,7 @@ export const marketList = [
   {
     key: 1,
     marketId: 1,
-    name: "Boss Cunag's Tapa and Longganisa",
+    name: "Marinela's Special Tapa and Longganisa",
     ratings: 0,
     contactNumber: "09247495061",
     address: "Baguio Street, Villas Del Pueblo, Buli, Taal Batangas",
@@ -27,7 +27,7 @@ export const marketList = [
   {
     key: 2,
     marketId: 2,
-    name: "Larr's Special Empanada and Delicacies",
+    name: "VAleriana's Special Empanada and Delicacies",
     ratings: 0,
     contactNumber: "09247495061",
     address: "Batanes Street, Villas Del Pueblo, Buli, Taal Batangas",
@@ -59,7 +59,7 @@ export const marketList = [
   {
     key: 3,
     marketId: 3,
-    name: "Kuya Al's Palamig",
+    name: "Yarie's Palamig",
     ratings: 0,
     contactNumber: "09247495061",
     address: "Ilo-Ilo Street, Villas Del Pueblo, Buli, Taal Batangas",
@@ -163,7 +163,7 @@ export const marketList = [
   {
     key: 5,
     marketId: 5,
-    name: "Nikko's Meryenda",
+    name: "Yebra's Meryenda",
     ratings: 0,
     contactNumber: "09760246800",
     address: "Pampanga Street, Villas Del Pueblo, Buli, Taal Batangas",
@@ -205,7 +205,7 @@ export const marketList = [
   {
     key: 6,
     marketId: 6,
-    name: "Aling Benett's Lutong Bahay",
+    name: "Aling Maring's Lutong Bahay",
     ratings: 0,
     contactNumber: "09247495061",
     address: "Pangasinan Street, Villas Del Pueblo, Buli, Taal Batangas",
