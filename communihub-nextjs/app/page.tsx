@@ -5,6 +5,7 @@ import News from "./(components)/news";
 import Map from "./(components)/map";
 
 export default function Home() {
+  
   return (
     <>
       <Header />
