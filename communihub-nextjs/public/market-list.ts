@@ -8,7 +8,7 @@ export const marketList = [
     name: "Boss Cunag's Tapa and Longganisa",
     ratings: 0,
     contactNumber: "09247495061",
-    address: "No. 26, Narra Street, Villas Del Pueblo, Buli, Taal Batangas",
+    address: "Baguio Street, Villas Del Pueblo, Buli, Taal Batangas",
     payments: "Cash, Gcash and Card",
     time: "7:00 am to 6:00 pm",
     menuItems: [
@@ -30,7 +30,7 @@ export const marketList = [
     name: "Larr's Special Empanada and Delicacies",
     ratings: 0,
     contactNumber: "09247495061",
-    address: "No. 26, Narra Street, Nueva Villa, Alangilan, Batangas City",
+    address: "Batanes Street, Villas Del Pueblo, Buli, Taal Batangas",
     payments: "Cash, Gcash and Card",
     time: "5:00 am to 12:00 pm",
     menuItems: [
@@ -62,7 +62,7 @@ export const marketList = [
     name: "Kuya Al's Palamig",
     ratings: 0,
     contactNumber: "09247495061",
-    address: "No. 26, Narra Street, Nueva Villa, Alangilan, Batangas City",
+    address: "Ilo-Ilo Street, Villas Del Pueblo, Buli, Taal Batangas",
     payments: "Cash, Gcash and Card",
     time: "7:00 am to 4:00 pm",
     menuItems: [
@@ -104,7 +104,7 @@ export const marketList = [
     name: "Bonito's Karinderya",
     ratings: 0,
     contactNumber: "09247495061",
-    address: "No. 26, Narra Street, Nueva Villa, Alangilan, Batangas City",
+    address: "Boracay Street, Villas Del Pueblo, Buli, Taal Batangas",
     payments: "Cash, Gcash and Card",
     time: "5:00 am to 12:00 pm",
     menuItems: [
@@ -166,7 +166,7 @@ export const marketList = [
     name: "Nikko's Meryenda",
     ratings: 0,
     contactNumber: "09760246800",
-    address: "No. 26, Narra Street, Nueva Villa, Alangilan, Batangas City",
+    address: "Pampanga Street, Villas Del Pueblo, Buli, Taal Batangas",
     payments: "Cash, Gcash and Card",
     time: "10:00 am to 5:00 pm",
     menuItems: [
@@ -208,7 +208,7 @@ export const marketList = [
     name: "Aling Benett's Lutong Bahay",
     ratings: 0,
     contactNumber: "09247495061",
-    address: "No. 26, Narra Street, Nueva Villa, Alangilan, Batangas City",
+    address: "Pangasinan Street, Villas Del Pueblo, Buli, Taal Batangas",
     payments: "Cash, Gcash and Card",
     time: "10:00 am to 5:00 pm",
     menuItems: [

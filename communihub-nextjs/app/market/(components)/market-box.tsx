@@ -18,7 +18,7 @@ export default function MarketBox({ name, ratings, contactNumber, address, payme
   }
 
   return (
-    <div className={`w-[292px] h-[292px] py-[27px] px-[30px] flex flex-col justify-end bg-cover bg-center bg-no-repeat market-${marketId}`}>
+    <div className={`w-[292px] h-[292px] py-[27px] px-[30px] flex flex-col  poster-bg justify-end bg-cover bg-center bg-no-repeat market-${marketId}`}>
       <Link onClick={addViews} href={`/market/${marketId}`} className="text-lg text-white font-bold">
         {name}
       </Link>

@@ -26,7 +26,7 @@ export default function ServiceBox({ serviceName, personnel, serviceNumber }: se
       <div className={`w-[393px] h-[294px] service-${serviceNumber} border-2 border-black rounded bg-cover bg-no-repeat bg-center`}></div>
       <motion.div
         whileHover={{ scale: 1.2 }}
-        className={`absolute top-[120px] left-[70px] bg-orange-200 ${nameLength > 18 ? "w-[290px]" : "w-[241px]"} h-[47px] flex justify-center items-center rounded-full border-2 border-yellow-700`}
+        className={`absolute top-[120px] left-[70px] bg-orange-0 ${nameLength > 18 ? "w-[290px]" : "w-[241px]"} h-[47px] flex justify-center font-bold poster1-bg text-black items-center rounded-full border-2 border-yellow-50`}
       >
         <div onClick={toggleModal} className="flex items-center gap-4 service-icon-wrap cursor-pointer">
           {serviceName}

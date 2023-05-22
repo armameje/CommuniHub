@@ -27,13 +27,13 @@ export default async function MarketPage({ params: { marketId } }: Params) {
   const marketItem = getMarket(marketId);
 
   return (
-    <section className="px-44 py-32 bg-amber-50">
-      <div className="border-[rgba(200, 189, 180, 0.75)] border p-24">
+    <section className="px-44 py-18 bg-amber-50">
+      <div className="border-[rgba(200, 189, 180, 0.75)] border p-20">
         <div className="flex flex-col items-start justify-between gap-2">
-          <h1 className="text-3xl font-bold">{marketItem.name}</h1>
-          <div className="flex my-6 gap-1">
+          <h1 className="text-4xl font-bold">{marketItem.name}</h1>
+          <div className="flex my-1 gap-1">
             {[...Array(5)].map((star, i) => {
-              return <FaStar key={i + 1} color="#e4e5e9" />;
+              return <FaStar key={i + 1} color="#FFFF00" />;
             })}
           </div>
           <div>Contact Number: {marketItem.contactNumber}</div>
@@ -41,8 +41,8 @@ export default async function MarketPage({ params: { marketId } }: Params) {
           <div>Payments: {marketItem.payments}</div>
           <div>Time: {marketItem.time}</div>
         </div>
-        <div className="flex flex-col gap-4 mt-16 items-center">
-          <h1 className="text-3xl font-bold mb-8">Menu</h1>
+        <div className="flex flex-col gap-4 mt-13 items-center mb-5">
+          <h1 className="text-3xl font-bold mb-5">Menu</h1>
           {marketItem.menuItems.map((item, x) => {
             return <MenuItem key={x + 1} name={item.name} price={item.price} itemCode={item.itemCode} />;
           })}
