@@ -234,7 +234,7 @@ input[type="radio"] {
 
 .form-label {
   position: absolute;
-  left: 5px;
+  left: 0;
   top: 0;
   scale: 1;
   transition: 0.3s;
@@ -249,6 +249,7 @@ input[type="radio"] {
 input.form-input:focus ~ label.form-label,
 input.form-input:valid ~ label.form-label {
   top: -20px;
+  left: 5px;
   scale: 1.2;
 }
 

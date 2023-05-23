@@ -1,18 +1,12 @@
 import { memberList } from "@/public/member-list";
 import MemberBox from "./(components)/member-box";
-import { getServerSession } from "next-auth/next";
-import { redirect } from "next/navigation";
+import Footer from "../(components)/footer";
 
 export const metadata = {
   title: "Contact Communihub",
 };
 
 export default async function Help() {
-  // const session = await getServerSession(authOptions);
-
-  // if (!session) {
-  //   redirect("/auth/login?callbackUrl=/");
-  // }
 
   return (
     <section>

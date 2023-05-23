@@ -1,19 +1,21 @@
+"use client";
+
 import ServiceBox from "./(components)/service-box";
 import { servicesList } from "@/public/services-list";
-import { getServerSession } from "next-auth/next";
-import { redirect } from "next/navigation";
+import { useSession } from "next-auth/react";
+import { useRouter } from "next/navigation";
+import Footer from "../(components)/footer";
+import { useEffect } from "react";
+import Map from "../(components)/map";
 
-export const metadata = {
-  title: "Communihub Services",
-};
+export default function Services() {
+  const session = useSession();
+  const { push } = useRouter();
 
-export default async function Services() {
-  // const session = await getServerSession(authOptions);
-  // console.log(session);
-
-  // if (!session) {
-  //   redirect("/auth/login?callbackUrl=/services");
-  // }
+  useEffect(() => {
+    console.log(session);
+    if (session.status !== "authenticated") push("/auth/login");
+  }, []);
 
   return (
     <section className="w-auto h-auto flex flex-col items-center px-[270px] pt-16 pb-16 poster1-bg">

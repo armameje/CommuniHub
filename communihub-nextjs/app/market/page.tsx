@@ -1,20 +1,20 @@
+"use client";
+
 import MarketBox from "./(components)/market-box";
 import { marketList } from "@/public/market-list";
-import { getServerSession } from "next-auth/next";
-import { redirect } from "next/navigation";
-
-export const metadata = {
-  title: "Communihub Market"
-};
-
+import { useSession } from "next-auth/react";
+import { useRouter, usePathname } from "next/navigation";
+import Footer from "../(components)/footer";
+import { useEffect, useState } from "react";
 
 export default async function Market() {
-  // const session = await getServerSession(authOptions);
+  // const session = useSession();
+  // const router = useRouter();
 
-  // if (!session) {
-  //   redirect("/auth/login?callbackUrl=/");
-  // }
-  
+  // useEffect(() => {
+  //   if (session.status !== "authenticated") router.push("/auth/login");
+  // }, [session, router]);
+
   return (
     <section className="w-auto h-auto flex flex-col items-center px-[270px] pt-16 pb-16 poster-bg">
       <h1 className="text-6xl font-bold  text-white ">Market</h1>
