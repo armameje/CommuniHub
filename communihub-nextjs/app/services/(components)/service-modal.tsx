@@ -12,7 +12,7 @@ export default function ServiceModal({ serviceName, toggleModal, modal, personne
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} onClick={toggleModal} className="service-modal-overlay"></motion.div>
           <motion.div initial={{ y: "-100vh", opacity: 0 }} animate={{ y: "10%", opacity: 1 }} transition={{ delay: 0.5 }} className="modal-content flex flex-col">
             <div className="flex justify-between">
-              <h1 className="text-[#C74300] text-6xl">{serviceName}</h1>
+              <h1 className="text-[#C74300] text-6xl font-bold">{serviceName}</h1>
               <GrClose onClick={toggleModal} />
             </div>
             <div className="flex flex-col gap-4 mt-4">
