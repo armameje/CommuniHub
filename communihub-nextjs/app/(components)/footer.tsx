@@ -9,25 +9,25 @@ export default function Footer() {
     <section className="w-full h-[290px] flex flex-col items-center px-48 py-17 gap-3 pb-3 bg-green-200">
       <div className="w-full bg-[rgb(1,104,85)] full-bleed flex justify-between px-24 py-5">
         <motion.div whileHover={{ scale: 1.2 }} className="text-[rgb(250,236,225)] hover:cursor-pointer">
-          <a href="https://www.facebook.com/" target="_blank" className="no-underline flex justify-center items-center gap-2">
+          <a href="https://www.facebook.com/profile.php?id=100092607835157" target="_blank" className="no-underline flex justify-center items-center gap-2">
             <FaFacebookF />
             Facebook
           </a>
         </motion.div>
         <motion.div whileHover={{ scale: 1.2 }} className="flex justify-center items-center gap-2 text-[rgb(250,236,225)] hover:cursor-pointer">
-          <a href="https://www.instagram.com/" target="_blank" className="no-underline flex justify-center items-center gap-2">
+          <a href="https://www.instagram.com/communihubb/" target="_blank" className="no-underline flex justify-center items-center gap-2">
             <BsInstagram />
             Instagram
           </a>
         </motion.div>
         <motion.div whileHover={{ scale: 1.2 }} className="flex justify-center items-center gap-2 text-[rgb(250,236,225)] hover:cursor-pointer">
-          <a href="https://www.pinterest.ph/" target="_blank" className="no-underline flex justify-center items-center gap-2">
+          <a href="https://www.pinterest.ph/communih/" target="_blank" className="no-underline flex justify-center items-center gap-2">
             <FaPinterestP />
             Pinterest
           </a>
         </motion.div>
         <motion.div whileHover={{ scale: 1.2 }} className="flex justify-center items-center gap-2 text-[rgb(250,236,225)] hover:cursor-pointer">
-          <a href="https://twitter.com/" target="_blank" className="no-underline flex justify-center items-center gap-2">
+          <a href="https://twitter.com/CommuniHub" target="_blank" className="no-underline flex justify-center items-center gap-2">
             <FaTwitter />
             Twitter
           </a>

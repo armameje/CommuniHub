@@ -1,5 +1,6 @@
 import { getServerSession } from "next-auth/next";
 import { redirect } from "next/navigation";
+import Footer from "../(components)/footer";
 
 export const metadata = {
   title: "About Communihub",
@@ -13,7 +14,7 @@ export default async function AboutUs() {
   // }
 
   return (
-    <section>
+    <><section>
       <div className="w-full h-[980px] flex justify-center poster-bg">
         <img src="/aboutUsPoster.png" alt="test" />
       </div>
@@ -43,6 +44,6 @@ export default async function AboutUs() {
           </p>
         </div>
       </div>
-    </section>
+    </section><Footer></Footer></>
   );
 }
