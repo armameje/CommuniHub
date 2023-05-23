@@ -17,7 +17,7 @@ export default async function Help() {
   return (
     <section>
       <div className="flex flex-col item-center justify-center gap-5 bg-[rgb(250,236,225)] pb-10">
-        <div className="flex justify-center items-center mt-16 mb-3">
+        <div className="flex justify-center items-center mt-10 mb-3">
           <h1 className="text-6xl font-bold mb-1">Contact Us</h1>
         </div>
         <div className="flex justify-between items-start pl-[300px] gap-8">
