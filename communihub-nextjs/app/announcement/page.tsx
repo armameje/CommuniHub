@@ -5,14 +5,14 @@ import { useRouter, usePathname } from "next/navigation";
 import Footer from "../(components)/footer";
 import { useEffect, useState } from "react";
 
-export default async function Announcement() {
-  // const session = useSession();
-  // const { push } = useRouter();
+export default function Announcement() {
+  const session = useSession();
+  const { push } = useRouter();
 
-  // useEffect(() => {
-  //   console.log(session);
-  //   if (session.status !== "authenticated") push("/auth/login");
-  // }, []);
+  useEffect(() => {
+    console.log(session);
+    if (session.status !== "authenticated") push("/auth/login");
+  }, []);
 
   return (
     <><section className="w-auto h-auto bg-[rgb(250,236,225)] flex flex-col justify-center items-center px-48 py-20 gap-8">
