@@ -33,7 +33,7 @@ export default function Map() {
             setShowHouseModal(true);
             setHouseKey(getHouseDetails(key));
           }}
-          className="w-[97px] h-[55px] bg-[rgb(250,236,225)] absolute top-[33%] left-[8%] rotate-[-10deg] hover:cursor-pointer"
+          className="w-[97px] h-[55px] bg-[rgb(250,236,225,0.1)] absolute top-[33%] left-[8%] rotate-[-10deg] hover:cursor-pointer"
         ></div>
         <div
           onClick={() => {
@@ -41,7 +41,7 @@ export default function Map() {
             setShowHouseModal(true);
             setHouseKey(getHouseDetails(key));
           }}
-          className="w-[96px] h-[55px] bg-[rgb(250,236,225)] absolute top-[25%] left-[27%] rotate-[-10deg] hover:cursor-pointer"
+          className="w-[96px] h-[55px] bg-[rgb(250,236,225,0.1)] absolute top-[25%] left-[27%] rotate-[-10deg] hover:cursor-pointer"
         ></div>
         <div
           onClick={() => {
@@ -49,7 +49,7 @@ export default function Map() {
             setShowHouseModal(true);
             setHouseKey(getHouseDetails(key));
           }}
-          className="w-[100px] h-[55px] bg-[rgb(250,236,225)] absolute top-[60%] left-[16%] rotate-[-10deg] hover:cursor-pointer"
+          className="w-[100px] h-[55px] bg-[rgb(250,236,225,0.1)] absolute top-[60%] left-[16%] rotate-[-10deg] hover:cursor-pointer"
         ></div>
         <div
           onClick={() => {
@@ -57,7 +57,7 @@ export default function Map() {
             setShowHouseModal(true);
             setHouseKey(getHouseDetails(key));
           }}
-          className="w-[88px] h-[38px] bg-[rgb(250,236,225)] absolute top-[58%] left-[39%] rotate-[-10deg] hover:cursor-pointer"
+          className="w-[88px] h-[38px] bg-[rgb(250,236,225,0.1)] absolute top-[58%] left-[39%] rotate-[-10deg] hover:cursor-pointer"
         ></div>
         <div
           onClick={() => {
@@ -65,7 +65,7 @@ export default function Map() {
             setShowHouseModal(true);
             setHouseKey(getHouseDetails(key));
           }}
-          className="w-[40px] h-[40px] bg-[rgb(250,236,225)] absolute top-[10%] left-[63%] rotate-[-8deg] hover:cursor-pointer"
+          className="w-[40px] h-[40px] bg-[rgb(250,236,225,0.1)] absolute top-[10%] left-[63%] rotate-[-8deg] hover:cursor-pointer"
         ></div>
         <div
           onClick={() => {
@@ -73,7 +73,7 @@ export default function Map() {
             setShowHouseModal(true);
             setHouseKey(getHouseDetails(key));
           }}
-          className="w-[55px] h-[55px] bg-[rgb(250,236,225)] absolute top-[14%] right-[18%] rotate-[-8deg] hover:cursor-pointer"
+          className="w-[55px] h-[55px] bg-[rgb(250,236,225,0.1)] absolute top-[14%] right-[18%] rotate-[-8deg] hover:cursor-pointer"
         ></div>
         <div
           onClick={() => {
@@ -81,7 +81,7 @@ export default function Map() {
             setShowHouseModal(true);
             setHouseKey(getHouseDetails(key));
           }}
-          className="w-[55px] h-[55px] bg-[rgb(250,236,225)] absolute top-[50%] right-[15%] rotate-[-8deg] hover:cursor-pointer"
+          className="w-[55px] h-[55px] bg-[rgb(250,236,225,0.1)] absolute top-[50%] right-[15%] rotate-[-8deg] hover:cursor-pointer"
         ></div>
       </div>
         <HouseModal
