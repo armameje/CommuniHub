@@ -75,6 +75,7 @@ export default async function Help() {
         </div>
       </div>
     </section>
-    <Footer></Footer></>
+    <Footer></Footer>
+    </>
   );
 }
