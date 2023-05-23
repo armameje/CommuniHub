@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 export default function Footer() {
   return (
-    <section className="w-full h-[350px] flex flex-col items-center px-48 gap-3 pb-3 bg-green-200">
+    <section className="w-full h-[290px] flex flex-col items-center px-48 py-17 gap-3 pb-3 bg-green-200">
       <div className="w-full bg-[rgb(1,104,85)] full-bleed flex justify-between px-24 py-5">
         <motion.div whileHover={{ scale: 1.2 }} className="text-[rgb(250,236,225)] hover:cursor-pointer">
           <a href="https://www.facebook.com/" target="_blank" className="no-underline flex justify-center items-center gap-2">
@@ -41,7 +41,7 @@ export default function Footer() {
           projects and events. Our goal is to promote community building and support local businesses, ultimately improving the quality of life for residents.
         </p>
       </div>
-      <div className="flex justify-start w-90">
+      <div className="flex justify-start w-full">
         <div className="text-xs">© 2023. Group 1 - BS CpE 3203. Software Design Final Project.</div>
       </div>
     </section>
