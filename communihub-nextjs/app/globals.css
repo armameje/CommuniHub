@@ -100,6 +100,34 @@ body {
   background-image: url(../public/news.PNG);
 }
 
+.news1 {
+  background-image: url(../public/news-1.png);
+}
+
+.news2 {
+  background-image: url(../public/news-2.png);
+}
+
+.news3 {
+  background-image: url(../public/news-3.png);
+}
+
+.news4 {
+  background-image: url(../public/news-4.png);
+}
+
+.news5 {
+  background-image: url(../public/news-5.png);
+}
+
+.news6 {
+  background-image: url(../public/news-6.png);
+}
+
+.news7 {
+  background-image: url(../public/news-7.png);
+}
+
 .service-item:first-child {
   margin-top: 2rem;
 }

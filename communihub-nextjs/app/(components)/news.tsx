@@ -10,7 +10,7 @@ export default function News() {
       </p>
       <div className="relative">
           <div className="w-[800px] h-[450px] flex justify-center items-center news bg-cover bg-center"></div>
-          <Link href="/news" className="w-[800px] h-[450px] bg-[rgb(250,236,225,0.1)] text-white py-2 px-4 hover:bg-[rgb(250,236,225,0.2)] hover:text-green-950 transition-all z-10 absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%]"></Link>
+          <Link href="/announcement" className="w-[800px] h-[450px] bg-[rgb(250,236,225,0.1)] text-white py-2 px-4 hover:bg-[rgb(250,236,225,0.2)] hover:text-green-950 transition-all z-10 absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%]"></Link>
       </div>
     </section>
   );
