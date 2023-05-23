@@ -27,7 +27,7 @@ export const marketList = [
   {
     key: 2,
     marketId: 2,
-    name: "VAleriana's Special Empanada and Delicacies",
+    name: "Valeriana's Special Empanada and Delicacies",
     ratings: 0,
     contactNumber: "09247495061",
     address: "Batanes Street, Villas Del Pueblo, Buli, Taal Batangas",
