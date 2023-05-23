@@ -19,7 +19,7 @@ export default async function Market() {
     <>
       {/* {session?.status === "authenticated" && (
         <> */}
-      <section className="w-auto h-auto flex flex-col items-center px-[270px] pt-16 pb-16">
+      <section className="w-auto h-auto bg-[rgb(250,236,225)] flex flex-col items-center px-[270px] pt-16 pb-16">
         <div>
           <h1 className="text-6xl font-bold">Market</h1>
           <p className="text-2xl">"Discover the Flavors and Community Spirit of Villas Del Pueblo Market: Where Local Vendors and Specials Come Together."</p>

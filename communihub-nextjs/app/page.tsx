@@ -2,7 +2,7 @@ import Header from "./(components)/header";
 import Features from "./(components)/features";
 import Welcome from "./(components)/welcome";
 import News from "./(components)/news";
-import Map from "./(components)/map";
+import Footer from "./(components)/footer";
 
 export default function Home() {
   
@@ -12,7 +12,7 @@ export default function Home() {
       <Features />
       <Welcome />
       <News />
-      <Map />
+      <Footer />
     </>
   );
 }

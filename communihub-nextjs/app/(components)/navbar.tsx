@@ -17,7 +17,7 @@ export default function NavBar() {
   return (
     <nav className="w-full flex justify-between border-2 items-center border-stone-800 px-10 py-1 sticky top-0 z-10 bg-[rgba(255,99,71,0.2)]">
       <div className="relative w-64 h-16 overflow-visible">
-        <img src="/new_logo.png" alt="communihub" className="absolute top-[-135%]" />
+        <Link href= "/"><button><img src="/new_logo.png" alt="communihub" className="absolute top-[-135%]"/></button></Link>
       </div>
       <div className="flex justify-around gap-8 ">
         <Link href="/" className="hover:text-[#015243] font-bold">
@@ -40,3 +40,5 @@ export default function NavBar() {
     </nav>
   );
 }
+
+

@@ -8,9 +8,9 @@ export default function Header() {
         <h1 className="text-8xl text-white">CommuniHub</h1>
         <h4 className="text-2xl text-white">The All-in-One Platform for Community Building, Security, and Local Commerce</h4>
         <div className="relative">
-          <div className="w-80 h-40 flex justify-center items-center"></div>
-          <Link href="/howtouse" className="bg-green-950 text-white py-2 px-4 hover:bg-white hover:text-green-950 transition-all z-10 absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%]">
-            How To Use
+          <div className="w-80 h-10 flex justify-center items-center"></div>
+          <Link href="/howtouse" className="bg-green-950 text-white py-1 px-4 hover:bg-white hover:text-green-950 transition-all z-10 absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[150%]">
+            How To Use?
           </Link>
         </div>
     </section>

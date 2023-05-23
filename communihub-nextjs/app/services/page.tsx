@@ -6,6 +6,7 @@ import { useSession } from "next-auth/react";
 import { useRouter } from "next/navigation";
 import Footer from "../(components)/footer";
 import { useEffect } from "react";
+import Map from "../(components)/map";
 
 export default function Services() {
   const session = useSession();
@@ -20,7 +21,7 @@ export default function Services() {
     <>
       {session?.status === "authenticated" && (
         <>
-          <section className="w-auto h-auto flex flex-col items-center px-[270px] pt-16 pb-16">
+          <section className="w-auto h-[1200px] bg-[rgb(250,236,225)] flex flex-col items-center px-[270px] pt-16 pb-16">
             <div className="flex flex-col gap-8">
               <h1 className="text-4xl">Services</h1>
               <p className="text-xl">
@@ -34,6 +35,7 @@ export default function Services() {
               })}
             </div>
           </section>
+          <Map />
           <Footer />
         </>
       )}
