@@ -128,6 +128,10 @@ body {
   background-image: url(../public/news-7.png);
 }
 
+.FAQs {
+  background-image: url(../public/cut.png);
+}
+
 .service-item:first-child {
   margin-top: 2rem;
 }

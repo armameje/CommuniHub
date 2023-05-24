@@ -3,17 +3,18 @@
 import MarketBox from "./(components)/market-box";
 import { marketList } from "@/public/market-list";
 import { useSession } from "next-auth/react";
-import { useRouter, usePathname } from "next/navigation";
+import { useRouter} from "next/navigation";
 import Footer from "../(components)/footer";
-import { useEffect, useState } from "react";
+import { useEffect} from "react";
 
-export default async function Market() {
-  // const session = useSession();
-  // const router = useRouter();
+export default function Market() {
+  const session = useSession();
+  const { push } = useRouter();
 
-  // useEffect(() => {
-  //   if (session.status !== "authenticated") router.push("/auth/login");
-  // }, [session, router]);
+  useEffect(() => {
+    console.log(session);
+    if (session.status !== "authenticated") push("/auth/login");
+  }, []);
 
   return (
     <><section className="w-auto h-auto flex flex-col items-center px-[270px] pt-16 pb-16 poster-bg">
